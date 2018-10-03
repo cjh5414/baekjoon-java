@@ -17,7 +17,6 @@ public class Main {
         int q = scanner.nextInt();
         int[] array = new int[q];
 
-
         for (int i = 0; i < q; i++) {
             array[i] = scanner.nextInt();
         }
