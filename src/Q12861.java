@@ -6,10 +6,10 @@ import java.util.Scanner;
 /**
  * Created by jihun on 2018. 10. 2..
  */
-public class Main {
-    static Map<String, Integer> map = new HashMap<>();
+public class Q12861 {
+    Map<String, Integer> map = new HashMap<>();
 
-    public static void main(String[] args) {
+    public void main() {
         Scanner scanner = new Scanner(System.in);
 
         int l = 1;
@@ -26,7 +26,7 @@ public class Main {
         System.out.println(getMinPrice(array, l, r));
     }
 
-    public static int getMinPrice(int[] array, int l, int r) {
+    public int getMinPrice(int[] array, int l, int r) {
         int min = Integer.MAX_VALUE;
 
         if (array.length == 1) return r - l;

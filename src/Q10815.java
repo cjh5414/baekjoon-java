@@ -4,8 +4,8 @@ import java.util.Scanner;
 /**
  * Created by jihun on 2018. 10. 15..
  */
-public class Main {
-    public static void main(String[] args) {
+public class Q10815 {
+    public static void main() {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         HashSet<Integer> set = new HashSet<>();
@@ -14,9 +14,7 @@ public class Main {
             set.add(scanner.nextInt());
 
         int m = scanner.nextInt();
-        for (int i = 0; i < m - 1; i++)
+        for (int i = 0; i < m; i++)
             System.out.print((set.contains(scanner.nextInt()) ? 1 : 0) + " ");
-
-        System.out.print(set.contains(scanner.nextInt()) ? 1 : 0);
     }
 }
