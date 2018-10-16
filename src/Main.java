@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Q12871 q = new Q12871();
+        Q12867 q = new Q12867();
         q.main();
     }
 }
